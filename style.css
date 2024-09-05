@@ -1,0 +1,305 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: "Cormorant Garamond", serif;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    background-color: antiquewhite;
+}
+
+header{
+    display: flex;
+    font-family: "Cormorant Garamond", serif;
+    background: linear-gradient(70deg, rgb(70, 107, 82) 70%, rgb(88, 139, 108) 90%);
+    background-blend-mode:hue;
+    width: 100%;
+    height: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    flex:1;
+}
+
+#topper{
+    padding: 2px;
+    border-bottom: 1px solid #4e6e4e;
+    background-color:  rgb(74, 129, 91);
+    font-family: "Cormorant Garamond", serif;
+    font-style: italic;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 550px;
+    background-image: url(Zoom\ Background\,\ Cozy\ Living\ Room\ virtual\ backdrop\,\ Zoom\ Call\ Backdrop\,\ Virtual\ Background\,\ Zoom\ Call\ Backdrop\,\ home\ office.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#homeText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 3px 3px rgb(51, 51, 51);
+    font-family: "Baskervville SC", serif;
+    font-size: 175px;
+}
+
+#divisoria{
+    color: #000;;
+    font-size: 60px;
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(196, 206, 169);
+}
+
+#AboutUs{
+    font-family: "Tangerine", cursive;
+    color: #000;
+    font-weight: bold;
+    font-size: 35pt;
+}
+
+#sobre{
+    border-radius: 5px;
+    text-align: center;
+    margin: 35px;
+    padding: 20px;
+    font-size: 20pt;
+    background-color: rgb(233, 220, 202);
+}
+
+#Products{
+    font-family: "Tangerine", cursive;
+    font-weight: 700;
+    font-style: normal;
+    margin: 40px;
+    font-weight: bold;
+    font-size: 35pt;
+    text-align: center;
+}
+
+#produtos{
+    border-radius: 5px;
+    margin: 35px;
+    padding: 20px;
+    background-color:  rgb(233, 220, 202);
+}
+
+#linha{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.foto{
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+}
+
+footer{
+    display: flex;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 40px;
+    background: linear-gradient(70deg, rgb(70, 107, 82) 70%, rgb(88, 139, 108) 90%);
+    background-blend-mode:hue;
+    width: 100%;
+    height: 70px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#pagProduct{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(233, 220, 202);
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+#contentProduct{
+    font-size: 20pt;
+    margin:20px;
+    width: 236px;
+    text-align: start;
+}
+#quantidade{
+    border-width: 1px;
+    border-style: solid;
+    border-color: #4e6e4e;
+    border-radius: 500px;
+    width: 50px;
+    height: 20px;
+    text-indent: 5px;
+}
+
+#productTitle{
+    flex-direction: column;
+    font-weight: bold;
+    margin:20px;
+    color: #000000;
+}
+
+#fotoProduto{
+    width: 500;
+    height: 500px;
+}
+
+#caixaProducts{
+    padding: 10px;
+    margin-bottom: 0;
+    width: 387px;
+    text-align: center;
+}
+
+#dProduct{
+    display:inline-block;
+    width: 240px;
+}
+
+#Recomended{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    font-family: "Tangerine", cursive;
+    margin: 20px;
+    font-weight: bold;
+    font-size: 25pt;
+}
+
+#recomendedProducts{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px;
+    background-color:  rgb(233, 220, 202);
+}
+
+@media screen and (max-width:600px) {
+    header{
+        font-size: 12px;
+        height: 35px;
+    }
+    
+    #topper{
+        height: 25px;
+        font-size: 10px;
+    }
+
+    #home{
+        height: 250px;
+    }
+
+    #homeText{
+        font-size: 100px;
+    }
+
+    #divisoria{
+        font-size: 20px;
+        height: 40px;
+    }
+
+    #AboutUs{
+        font-size: 20pt;
+    }
+
+    #sobre{
+        text-align: center;
+        margin: 35px;
+        padding: 20px;
+        font-size: 15pt;
+        background-color: rgb(233, 220, 202);
+    }
+    
+    #Products{
+        margin: 5px;
+        font-weight: bold;
+        font-size: 20pt;
+        text-align: center;
+    }
+    
+    #linha{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    footer{
+        font-size: 12px;
+        height: 35px;
+    }
+        
+    #quantidade{
+        border-width: 1px;
+        border-radius: 500px;
+        width: 50px;
+    }
+    #fotoProduto{
+        width: 236px;
+        height: 236px;
+    }
+    #contentProduct{
+        width: 236px;
+        text-align: start;
+    }
+    #pagProduct{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        margin: 20px;
+        padding: 20px;
+    }
+    #Recomended{
+        text-indent: 15px;
+        margin: 5px;
+        font-size: 20pt;
+    }
+    
+    #recomendedProducts{
+        flex-direction: column;
+    }
+}
